@@ -7,6 +7,7 @@ public class Main {
         printCheckSumSing();
         printColor();
         compareNumbers();
+        compareNumbers();
     }
 
     public static void printThreeWords() {
@@ -44,10 +45,18 @@ public class Main {
         } else {
             System.out.println("a < b");
         }
+        public static void compan(){
+            int x = 1;
+            int y = 5;
+            if (x >= y) {
+                System.out.println("x >= y");
+            } else {
+                System.out.println("x < y");
+            }
+        }
+
+
     }
-
-
-}
 
 
 
